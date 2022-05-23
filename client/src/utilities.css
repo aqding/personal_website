@@ -153,3 +153,15 @@ form {
 .animate-about-appear-slow {
   animation: appear-slow 2.5s cubic-bezier(0.4, 0, 0.6, 1);
 }
+
+.animate-exp-appear-fast {
+  animation: appear-fast 1s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.animate-exp-appear-med {
+  animation: appear-med 1.5s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.animate-exp-appear-slow {
+  animation: appear-slow 2.5s cubic-bezier(0.4, 0, 0.6, 1);
+}

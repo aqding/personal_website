@@ -18,48 +18,54 @@ const Experience = ({ userId, handleLogin, handleLogout }) => {
     <div className="backgroundExperience">
       <div className="superContainer">
         <div className="contentContainerExp">
-          <Card
-            content={
-              <Event
-                event="Massachusetts Institute of Technology"
-                descrip="Candidate for B.S. in Computer Science"
-                date="2020-2024"
-                loc="Cambridge, MA"
-              />
-            }
-            title="Education"
-            img={school}
-            imgcss="school"
-          />
-
-          <Card content={<Classes />} title="Relevant Coursework" img={books} imgcss="books" />
-
-          <Card
-            content={
-              <div>
+          <div className="animate-exp-appear-fast">
+            <Card
+              content={
                 <Event
-                  event="MIT 6.148 Web Lab Instructor"
-                  descrip="Taught a web development class including topics such as HTML, CSS, Javascript, ReactJS, nodejs,
+                  event="Massachusetts Institute of Technology"
+                  descrip="Candidate for B.S. in Computer Science"
+                  date="2020-2024"
+                  loc="Cambridge, MA"
+                />
+              }
+              title="Education"
+              img={school}
+              imgcss="school"
+            />
+          </div>
+
+          <div className="animate-exp-appear-med">
+            <Card content={<Classes />} title="Relevant Coursework" img={books} imgcss="books" />
+          </div>
+
+          <div className="animate-exp-appear-slow">
+            <Card
+              content={
+                <div>
+                  <Event
+                    event="MIT 6.148 Web Lab Instructor"
+                    descrip="Taught a web development class including topics such as HTML, CSS, Javascript, ReactJS, nodejs,
                   as well as using databases such as MongoDB."
-                  date="January 2022"
-                />
-                <Event
-                  event="Reseacher at MIT CSAIL"
-                  descrip="Developed neural network models to predict changes in clinical biomarkers from chest xray images.
+                    date="January 2022"
+                  />
+                  <Event
+                    event="Reseacher at MIT CSAIL"
+                    descrip="Developed neural network models to predict changes in clinical biomarkers from chest xray images.
                   Paper accepted by the Nightingale Open Science NeurIPS 2021 Workshop."
-                  date="May 2021 — August 2021"
-                />
-                <Event
-                  event="Researcher at MIT Media Lab"
-                  descrip="Developed models to increase the efficacy of training deep neural networks through iterative weight pruning."
-                  date="December 2020 — March 2021"
-                />
-              </div>
-            }
-            title="Experience"
-            img={briefcase}
-            imgcss="briefcase"
-          />
+                    date="May 2021 — August 2021"
+                  />
+                  <Event
+                    event="Researcher at MIT Media Lab"
+                    descrip="Developed models to increase the efficacy of training deep neural networks through iterative weight pruning."
+                    date="December 2020 — March 2021"
+                  />
+                </div>
+              }
+              title="Experience"
+              img={briefcase}
+              imgcss="briefcase"
+            />
+          </div>
         </div>
       </div>
     </div>
