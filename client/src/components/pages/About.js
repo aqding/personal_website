@@ -3,7 +3,7 @@ import { Router } from "@reach/router";
 import NavBar from "../modules/NavBar.js";
 import "../../utilities.css";
 import "./About.css";
-import me from "../../images/me.png";
+import me from "../../images/me2.png";
 //TODO: REPLACE WITH YOUR OWN CLIENT_ID
 
 const IM_THRES = 1150;
@@ -27,9 +27,9 @@ const About = ({ userId, handleLogin, handleLogout }) => {
         <div className="titleContainerAbout animate-about-appear-med">MIT Computer Science</div>
         <div className="textContainerAbout animate-about-appear-slow">
           <p className="box">
-            Hello! I'm Allen, and I'm a CS student at MIT passionate about full stack engineering
-            and machine learning. Outside of academics, I am a part of MIT's Poker Club and Asian
-            Dance Team, and am also interested in longboarding, reading, and cooking.
+            Hello! I'm Allen, and I'm a CS student at MIT passionate about full stack engineering,
+            systems, and machine learning. Outside of academics, I am a part of MIT's Poker Club and
+            Asian Dance Team, and am also interested in longboarding, reading, and cooking.
           </p>
           <p className="box">
             Check out the rest of the website to see what else I'm involved with and what I've been
