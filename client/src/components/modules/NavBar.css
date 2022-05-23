@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+.navContainer {
+  display: flex;
+  width: 50vw;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: 12px;
+}
+
+.titles {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Philosopher", sans-serif;
+  font-size: 20px;
+}

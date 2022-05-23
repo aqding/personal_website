@@ -1,0 +1,27 @@
+.backgroundExperience {
+  background-image: url(../../images/experience.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-attachment: fixed;
+}
+
+.superContainer {
+  display: flex;
+  width: 100vw;
+  overflow: scroll;
+  margin-top: 5vh;
+  /* padding-bottom: 5vh; */
+  justify-content: center;
+}
+
+.contentContainerExp {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 80vw;
+  margin-top: 5vh;
+}

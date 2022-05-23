@@ -1,0 +1,15 @@
+.classesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 25px;
+}
+
+.classesColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.class {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,33 @@
+.eventContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 25px;
+  /* padding-right: 36px; */
+  padding-left: 36px;
+}
+
+.eventContentContainer {
+  width: 70%;
+  /* margin-left: 36px; */
+}
+
+.event {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.date {
+  font-weight: 700;
+  text-align: right;
+}
+
+.loc {
+  text-align: right;
+}
+
+.descrip {
+  font-weight: 100;
+  width: 150%;
+}

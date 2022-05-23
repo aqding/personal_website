@@ -1,0 +1,33 @@
+.backgroundProjects {
+  background-image: url(../../images/projects.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  background-attachment: fixed;
+}
+
+.superContainer {
+  display: flex;
+
+  width: 100vw;
+  overflow: scroll;
+  margin-top: 5vh;
+
+  justify-content: center;
+}
+
+.contentContainerProj {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 75vw;
+  margin-top: 5vh;
+}
+
+.undoLink {
+  text-decoration: none;
+  color: rgb(157, 204, 245);
+}

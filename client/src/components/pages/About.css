@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+.backgroundAbout {
+  background-image: url(../../images/aboutme.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contentContainerAbout {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15vw;
+  padding-top: 25vh;
+  padding-right: 10vw;
+  max-height: 100%;
+}
+
+.contentContainerAboutLarge {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15vw;
+  padding-top: 25vh;
+  padding-right: 55vw;
+  max-height: 100%;
+}
+
+.nameContainerAbout {
+  font-size: 9vh;
+}
+
+.titleContainerAbout {
+  font-size: 4vh;
+}
+
+.textContainerAbout {
+  font-size: 3vh;
+  padding-top: 2.5vh;
+}
+
+.box {
+  overflow-y: hidden;
+}
+
+.meContainer {
+  position: absolute;
+  bottom: 0px;
+  right: 10vw;
+  width: 60vh;
+  /* height: 100px;
+  width: 10px; */
+}
