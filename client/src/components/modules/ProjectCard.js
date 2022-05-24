@@ -7,7 +7,7 @@ const ProjectCard = ({ title, img, content }) => {
     <div className="cardContainerProject font2">
       <div className="contentContainerProject">
         <div className="titleProject">{title}</div>
-        <div>{content}</div>
+        <div className="textProject">{content}</div>
       </div>
       <div className="contentProject">{img}</div>
     </div>
