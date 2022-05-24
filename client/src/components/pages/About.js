@@ -29,7 +29,8 @@ const About = ({ userId, handleLogin, handleLogout }) => {
           <p className="box">
             Hello! I'm Allen, and I'm a CS student at MIT passionate about full stack engineering,
             systems, and machine learning. Outside of academics, I am a part of MIT's Poker Club and
-            Asian Dance Team, and am also interested in longboarding, reading, and cooking.
+            Asian Dance Team, co-founded the Collegiate Series of Poker, and am also interested in
+            longboarding, reading, and cooking.
           </p>
           <p className="box">
             Check out the rest of the website to see what else I'm involved with and what I've been

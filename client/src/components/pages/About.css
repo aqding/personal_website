@@ -19,9 +19,9 @@
 .contentContainerAboutLarge {
   display: flex;
   flex-direction: column;
-  padding-left: 15vw;
+  padding-left: 20vw;
   padding-top: 25vh;
-  padding-right: 55vw;
+  padding-right: 50vw;
   max-height: 100%;
 }
 

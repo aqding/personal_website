@@ -44,8 +44,8 @@ const Experience = ({ userId, handleLogin, handleLogout }) => {
                 <div>
                   <Event
                     event="MIT 6.148 Web Lab Instructor"
-                    descrip="Taught a web development class including topics such as HTML, CSS, Javascript, ReactJS, nodejs,
-                  as well as using databases such as MongoDB."
+                    descrip="Taught a web development class of 250+ students including topics such as HTML, CSS, Javascript, ReactJS, nodejs,
+                  as well as using databases such as MongoDB. Received a course evaluation rating of 6.7/7.0."
                     date="January 2022"
                   />
                   <Event
