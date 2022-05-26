@@ -4,7 +4,7 @@ import "./Activities.css";
 import "../../utilities.css";
 import ActivityCard from "../modules/ActivityCard";
 import mpc from "../../images/mpc.png";
-import csop from "../../images/csop.mp4";
+import csop from "../../../dist/videos/csop.mp4";
 import weblab from "../../images/weblab.png";
 
 const mpc_image = <img src={mpc} className="fitImage" />;
@@ -40,7 +40,8 @@ const mpc_content = (
 const csop_vid = (
   <video
     controls
-    src={csop}
+    src="https://s3.amazonaws.com/allenqding.com/personal_website/client/dist/videos/csop.mp4"
+    // src={csop}
     type="video/mp4"
     autoPlay
     muted
