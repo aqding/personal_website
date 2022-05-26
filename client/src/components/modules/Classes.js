@@ -19,7 +19,7 @@ const Classes = () => {
         <div className="class">6.036 — Introduction to Machine Learning</div>
         <div className="class">6.006 — Introduction to Algorithms</div>
         <div className="class">6.009 — Fundamentals of Programming</div>
-        <div className="class">6.08 — Embedded Systems</div>
+        <div className="class">6.08 &nbsp;&nbsp;— Embedded Systems</div>
       </div>
     </div>
   );
