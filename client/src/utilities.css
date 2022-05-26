@@ -142,6 +142,10 @@ form {
   }
 }
 
+.animate-appear-slow {
+  animation: appear-med 6s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
 .animate-about-appear-fast {
   animation: appear-fast 1s cubic-bezier(0.4, 0, 0.6, 1);
 }
@@ -172,4 +176,76 @@ form {
 
 .animate-act-appear {
   animation: appear-fast 1s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.bounceGmail {
+  animation: bounceGmail;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+@keyframes bounceGmail {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  40% {
+    transform: translateY(0);
+  }
+}
+
+.bounceFB {
+  animation: bounceFB;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+@keyframes bounceFB {
+  10% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+.bounceGithub {
+  animation: bounceGithub;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+@keyframes bounceGithub {
+  20% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+}
+
+.bounceLinkedin {
+  animation: bounceLinkedin;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+@keyframes bounceLinkedin {
+  30% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  70% {
+    transform: translateY(0);
+  }
 }

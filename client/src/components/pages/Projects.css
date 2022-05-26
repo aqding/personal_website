@@ -37,9 +37,3 @@
   width: 100%;
   height: 100%;
 }
-
-.fitImage {
-  object-fit: cover;
-  width: 100%;
-  border-radius: 40px;
-}
