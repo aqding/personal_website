@@ -17,16 +17,16 @@ const Main = ({ userId, handleLogin, handleLogout }) => {
         <div className="bigText animate-appear-fast">Hello</div>
         <div className="smallText animate-appear-med">I'm Allen Ding</div>
         <div className="iconContainer animate-appear-slow">
-          <a href="mailto:aqding@mit.edu">
+          <a href="mailto:aqding@mit.edu" target="_blank">
             <img src={gmail} className="icon bounceGmail" />
           </a>
-          <a href="https://www.facebook.com/allen.ding.397/">
+          <a href="https://www.facebook.com/allen.ding.397/" target="_blank">
             <img src={facebook} className="icon bounceFB" />
           </a>
-          <a href="https://github.com/aqding">
+          <a href="https://github.com/aqding" target="_blank">
             <img src={github} className="icon bounceGithub" />
           </a>
-          <a href="https://www.linkedin.com/in/allen-d-3aab41127/">
+          <a href="https://www.linkedin.com/in/allen-d-3aab41127/" target="_blank">
             <img src={linkedin} className="icon bounceLinkedin" />
           </a>
         </div>

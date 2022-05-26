@@ -38,7 +38,7 @@ const Projects = () => {
       </p>
       <p>
         You can read the paper{" "}
-        <a href={vc_link} className="undoLink">
+        <a href={vc_link} className="undoLink" target="_blank">
           here
         </a>
         .
@@ -62,7 +62,7 @@ const Projects = () => {
       </p>
       <p>
         You can read our paper{" "}
-        <a href={nlp_link} className="undoLink">
+        <a href={nlp_link} className="undoLink" target="_blank">
           here
         </a>
         .
@@ -87,7 +87,7 @@ const Projects = () => {
       </p>
       <p>
         You can read the paper{" "}
-        <a href={bnp_link} className="undoLink">
+        <a href={bnp_link} className="undoLink" target="_blank">
           here
         </a>
         , which was accepted by a NeurIPS 2021 workshop!

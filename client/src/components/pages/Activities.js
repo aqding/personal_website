@@ -29,7 +29,7 @@ const mpc_content = (
 
     <p>
       Be sure to check out our{" "}
-      <a href={"http://poker.mit.edu"} className="undoLink">
+      <a href={"http://poker.mit.edu"} className="undoLink" target="_blank">
         website
       </a>{" "}
       to learn more!
@@ -74,7 +74,7 @@ const csop_content = (
     </p>
     <p>
       Be sure to check out the{" "}
-      <a href="http://pokercsop.com" className="undoLink">
+      <a href="http://pokercsop.com" className="undoLink" target="_blank">
         CSOP website
       </a>{" "}
       to learn more!
@@ -103,7 +103,7 @@ const weblab_content = (
 
     <p>
       Check out the{" "}
-      <a href="http://weblab.mit.edu" className="undoLink">
+      <a href="http://weblab.mit.edu" className="undoLink" target="_blank">
         Web Lab website
       </a>{" "}
       to learn more about the course (and to learn how to build websites like this one!)
