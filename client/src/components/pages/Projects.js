@@ -1,20 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Router } from "@reach/router";
-import NavBar from "../modules/NavBar.js";
 import "../../utilities.css";
 import "./Projects.css";
 import ProjectCard from "../modules/ProjectCard.js";
-import demo from "../../../dist/videos/demo.mp4";
-import fakenews from "../../images/fakenews.png";
-import bnp from "../../images/bnp.png";
-//TODO: REPLACE WITH YOUR OWN CLIENT_ID
 
 const Projects = () => {
   let demoDiv = (
     <video
       controls
-      src="https://s3.amazonaws.com/allenqding.com/personal_website/client/dist/videos/demo.mp4"
-      // src={demo}
+      src="https://s3.amazonaws.com/allenqding.com/videos/demo.mp4"
       type="video/mp4"
       autoPlay
       muted
@@ -70,7 +63,9 @@ const Projects = () => {
     </div>
   );
 
-  const nlp_img = <img src={fakenews} className="fitContent" />;
+  const nlp_img = (
+    <img src="https://s3.amazonaws.com/allenqding.com/images/fakenews.png" className="fitContent" />
+  );
 
   const bnp_link =
     "https://drive.google.com/file/d/1IOK4xW9T35cioAcgD13sRFYcKNUJyzFI/view?usp=sharing";
@@ -94,7 +89,9 @@ const Projects = () => {
       </p>
     </div>
   );
-  const bnp_img = <img src={bnp} className="fitContent" />;
+  const bnp_img = (
+    <img src="https://s3.amazonaws.com/allenqding.com/images/bnp.png" className="fitContent" />
+  );
 
   return (
     <div className="backgroundProjects">

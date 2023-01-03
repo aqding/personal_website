@@ -19,7 +19,7 @@
 }
 
 .background {
-  background-image: url(../../images/main.png);
+  background-image: url(https://s3.amazonaws.com/allenqding.com/images/main.png);
   background-size: cover;
   width: 100vw;
   height: 100vh;

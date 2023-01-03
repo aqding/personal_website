@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Router } from "@reach/router";
 import "./Activities.css";
 import "../../utilities.css";
 import ActivityCard from "../modules/ActivityCard";
-import mpc from "../../images/mpc.png";
-import csop from "../../../dist/videos/csop.mp4";
-import weblab from "../../images/weblab.png";
 
-const mpc_image = <img src={mpc} className="fitImage" />;
+const mpc_image = (
+  <img src="https://s3.amazonaws.com/allenqding.com/images/mpc.png" className="fitImage" />
+);
 
 const mpc_content = (
   <div>
@@ -40,8 +38,7 @@ const mpc_content = (
 const csop_vid = (
   <video
     controls
-    src="https://s3.amazonaws.com/allenqding.com/personal_website/client/dist/videos/csop.mp4"
-    // src={csop}
+    src="https://s3.amazonaws.com/allenqding.com/videos/csop.mp4"
     type="video/mp4"
     autoPlay
     muted
@@ -82,7 +79,9 @@ const csop_content = (
   </div>
 );
 
-const weblab_image = <img src={weblab} className="fitImage" />;
+const weblab_image = (
+  <img src="https://s3.amazonaws.com/allenqding.com/images/weblab.png" className="fitImage" />
+);
 
 const weblab_content = (
   <div>

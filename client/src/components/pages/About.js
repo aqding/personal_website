@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Router } from "@reach/router";
-import NavBar from "../modules/NavBar.js";
 import "../../utilities.css";
 import "./About.css";
-import me from "../../images/me2.png";
-//TODO: REPLACE WITH YOUR OWN CLIENT_ID
 
 const IM_THRES = 1150;
 
-const About = ({ userId, handleLogin, handleLogout }) => {
+const About = () => {
   const [showIm, setShowIm] = useState(window.innerWidth > IM_THRES ? true : false);
 
   const compIm = () => {
@@ -38,7 +34,14 @@ const About = ({ userId, handleLogin, handleLogout }) => {
           </p>
         </div>
       </div>
-      {showIm ? <img src={me} className="meContainer animate-about-appear-fast" /> : <></>}
+      {showIm ? (
+        <img
+          src="https://s3.amazonaws.com/allenqding.com/images/me2.png"
+          className="meContainer animate-about-appear-fast"
+        />
+      ) : (
+        <></>
+      )}
     </div>
   );
 };

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
 
 .backgroundAbout {
-  background-image: url(../../images/aboutme.png);
+  background-image: url(https://s3.amazonaws.com/allenqding.com/images/aboutme.png);
   background-size: cover;
   width: 100vw;
   height: 100vh;

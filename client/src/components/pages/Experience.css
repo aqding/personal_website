@@ -1,5 +1,5 @@
 .backgroundExperience {
-  background-image: url(../../images/experience.png);
+  background-image: url(https://s3.amazonaws.com/allenqding.com/images/experience.png);
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -26,6 +26,11 @@
   margin-top: 5vh;
 }
 
+.experienceCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
 .superContainer::-webkit-scrollbar {
   display: none;
 }

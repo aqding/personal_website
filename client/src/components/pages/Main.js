@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Router } from "@reach/router";
-import NavBar from "../modules/NavBar.js";
 import "../../utilities.css";
 import "./Main.css";
 
-import gmail from "../../images/gmail.png";
-import github from "../../images/github.png";
-import facebook from "../../images/facebook.png";
-import linkedin from "../../images/linkedin.png";
-//TODO: REPLACE WITH YOUR OWN CLIENT_ID
+const gmail = "https://s3.amazonaws.com/allenqding.com/images/gmail.png";
+const github = "https://s3.amazonaws.com/allenqding.com/images/github.png";
+const facebook = "https://s3.amazonaws.com/allenqding.com/images/facebook.png";
+const linkedin = "https://s3.amazonaws.com/allenqding.com/images/linkedin.png";
 
 const Main = ({ userId, handleLogin, handleLogout }) => {
   return (

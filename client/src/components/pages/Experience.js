@@ -1,17 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Router } from "@reach/router";
-import NavBar from "../modules/NavBar.js";
 import "../../utilities.css";
 import "./Main.css";
 import "./Experience.css";
 import Card from "../modules/Card.js";
 import Classes from "../modules/Classes.js";
 import Event from "../modules/Event.js";
-import school from "../../images/school.png";
-import books from "../../images/books.png";
-import briefcase from "../..//images/briefcase.png";
-
-//TODO: REPLACE WITH YOUR OWN CLIENT_ID
 
 const Experience = ({ userId, handleLogin, handleLogout }) => {
   return (
@@ -24,24 +17,52 @@ const Experience = ({ userId, handleLogin, handleLogout }) => {
                 <Event
                   event="Massachusetts Institute of Technology"
                   descrip="Candidate for B.S. in Computer Science"
-                  date="2020-2024"
+                  date="2020-2023"
                   loc="Cambridge, MA"
                 />
               }
               title="Education"
-              img={school}
+              img="https://s3.amazonaws.com/allenqding.com/images/school.png"
               imgcss="school"
             />
           </div>
 
           <div className="animate-exp-appear-med">
-            <Card content={<Classes />} title="Relevant Coursework" img={books} imgcss="books" />
+            <Card
+              content={<Classes />}
+              title="Relevant Coursework"
+              img="https://s3.amazonaws.com/allenqding.com/images/books.png"
+              imgcss="books"
+            />
           </div>
 
           <div className="animate-exp-appear-slow">
             <Card
               content={
-                <div>
+                <div className="experienceCardContainer">
+                  <Event
+                    event="Software Engineer Intern at Yext"
+                    descrip="Remade internal search web app used by 1000 employees daily and improved search results using data connectors.
+                    Also increased model prediction efficiency 4x by upgrading Cuda drivers, adopted by all ML teams across the company.
+                    Built pipelines for automated data curating and uploading to a labeling UI and nightly model retraining.
+                    "
+                    date="May 2022 — August 2022"
+                  />
+                  {/* <Event
+                    event="MIT 6.033 Computer Systems Engineering Teaching Assistant"
+                    descrip="Led recitation and office hours covering operating systems, networks, distributed systems, and security. Also handled course administrative tasks."
+                    date="January 2022 — Present"
+                  /> */}
+                  <Event
+                    event="MIT 6.036 Introduction to Machine Learning Teaching Assistant"
+                    descrip="Curated course material and led lab sessions/office hours covering classification, regression, reinforcement learning, trees, and clustering."
+                    date="August 2022 — December 2022"
+                  />
+                  <Event
+                    event="MIT 6.036 Introduction to Machine Learning Lab Assistant"
+                    descrip="Assisted in lab sessions and office hours covering content mentioned above."
+                    date="January 2022 — May 2022"
+                  />
                   <Event
                     event="MIT 6.148 Web Lab Instructor"
                     descrip="Taught a web development class of 250+ students including topics such as HTML, CSS, Javascript, ReactJS, nodejs,
@@ -62,7 +83,7 @@ const Experience = ({ userId, handleLogin, handleLogout }) => {
                 </div>
               }
               title="Experience"
-              img={briefcase}
+              img="https://s3.amazonaws.com/allenqding.com/images/briefcase.png"
               imgcss="briefcase"
             />
           </div>

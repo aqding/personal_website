@@ -3,9 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 24px;
   /* padding-right: 36px; */
-  padding-left: 36px;
+  padding-left: 30px;
 }
 
 .eventContentContainer {

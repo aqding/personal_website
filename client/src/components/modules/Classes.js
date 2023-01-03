@@ -9,6 +9,7 @@ const Classes = () => {
         <div className="class">6.869 — Advances in Computer Vision (G)</div>
         <div className="class">6.864 — Advanced Natural Language Processing (G) </div>
         <div className="class">6.865 — Advanced Computational Photography (G) </div>
+        <div className="class">6.170 — Software Studio</div>
         <div className="class">6.046 — Design and Analysis of Algorithms</div>
         <div className="class">6.031 — Elements of Software Construction </div>
         <div className="class">6.033 — Computer Systems Engineering </div>
@@ -20,6 +21,7 @@ const Classes = () => {
         <div className="class">6.006 — Introduction to Algorithms</div>
         <div className="class">6.009 — Fundamentals of Programming</div>
         <div className="class">6.08 &nbsp;&nbsp;— Embedded Systems</div>
+        <div className="class">6.UAT — Oral Communication</div>
       </div>
     </div>
   );
