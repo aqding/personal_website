@@ -48,11 +48,11 @@ const Experience = ({ userId, handleLogin, handleLogout }) => {
                     "
                     date="May 2022 — August 2022"
                   />
-                  {/* <Event
+                  <Event
                     event="MIT 6.033 Computer Systems Engineering Teaching Assistant"
-                    descrip="Led recitation and office hours covering operating systems, networks, distributed systems, and security. Also handled course administrative tasks."
-                    date="January 2022 — Present"
-                  /> */}
+                    descrip="Led recitation and office hours covering operating systems, networks, distributed systems, and computer security. Also handled course administrative tasks."
+                    date="January 2023 — May 2023"
+                  />
                   <Event
                     event="MIT 6.036 Introduction to Machine Learning Teaching Assistant"
                     descrip="Curated course material and led lab sessions/office hours covering classification, regression, reinforcement learning, trees, and clustering."
