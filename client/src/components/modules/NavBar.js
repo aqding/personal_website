@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Router } from "@reach/router";
-import { Link } from "@reach/router";
+import { Link } from "react-router-dom";
 
 import "../../utilities.css";
 import "./NavBar.css";
